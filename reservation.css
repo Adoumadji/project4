@@ -1,0 +1,44 @@
+form{
+    background :linear-gradient( darkturquoise, white ) ;
+    margin: 0 auto;
+   
+    /*forme outline*/
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    border: 3px solid rgb(34, 68, 221);
+}
+label{
+    display: inline-flex;
+    width: 90px;
+    text-align:right;
+    padding: 5px;
+}
+input{
+
+font: 1em sans-serif;
+box-sizing: border-box;
+border: 2px solide #999;
+margin: 20px;
+}
+input:focus{
+    border-color: #000;
+}
+#env{
+    margin-left: 500px;
+    height: 30px;
+
+}
+#dest{
+margin-left: 18px;
+}
+h2{
+    text-align: center;
+}
+#acceuil{
+    float: right;
+    background: white;
+    padding-top: 5px;
+    border-radius: 7px;
+
+}

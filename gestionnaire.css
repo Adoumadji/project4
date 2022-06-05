@@ -1,0 +1,38 @@
+form{
+    background: linear-gradient( white, darkturquoise);
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    /*forme outline*/
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    border: 3px solid rgb(34, 68, 221);
+}
+label{
+    display: inline-flex;
+    width: 90px;
+    text-align:right;
+    padding: 5px;
+}
+input{
+font: 1em sans-serif;
+box-sizing: border-box;
+border: 2px solide #999;
+margin: 16px;
+}
+input:focus{
+    border-color: #000;
+}
+#env{
+    margin-left: 200px;
+
+}
+h2{
+    text-align: center;
+}
+#acceuil{
+    float: right;
+    background: white;
+    border-radius: 7px;
+}

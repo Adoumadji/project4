@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acceuil</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+
+<body>
+    <form action="reservation.php" method="post">
+        <a id="acceuil" href="Aceuille.html">ACCUEIL</a>
+        <h2>RESERVATION </h2>
+        <label for="nom">nom</label>
+        <input type="text" id="nom" name="nom" autocomplete="off"><br>
+        <label for="prenom">numero</label>
+        <input type="text" id="prenom" name="numero" autocomplete="off"><br>
+        <label for="frais">frais</label>
+        <input type="text" id="frais" name="somme" autocomplete="off"><br>
+        <label for="dateDepare">date depart</label>
+        <input type="date" id="dateheure" name="date"><br>
+        <label for="destination">destination</label>
+        <select id='dest' name="destionation" id="destination">
+            <option value="ville">ville</option>
+            <option value="bini">bini</option>
+        </select><br>
+        <input type="submit" id="env" value="envoyer" width="35px">
+    </form>
+</body>
+
+</html>
