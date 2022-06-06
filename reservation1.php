@@ -7,5 +7,5 @@ catch(Exception $e){
 }
 $req="INSERT INTO tabl(nom,numero,somme,date,destination) VALUE('".$_POST["nom"]."','".$_POST["numero"]."','".$_POST["somme"]."','".$_POST["date"]."','".$_POST["destination"]."')";
 $donnee=$bdd->exec($req);
-header('location: reservation1.html');
+header('location: index.php');
 ?>
